@@ -8,7 +8,7 @@ Their goal is to run queries on song play analysis. This will allow them to anal
 
 
 ### ETL Pipeline
-Both the song datasets and the user log datasets are read in "json" format. The song dataset is a subset of the [Million Song Dataset](http://millionsongdataset.com/) and the log datasets has been created by [this event simulator](https://github.com/Interana/eventsim).
+Both the song datasets and the user log datasets are read in "json" format. The song dataset is a subset of the [Million Song Dataset](http://millionsongdataset.com/) and the log datasets have been created by [this event simulator](https://github.com/Interana/eventsim).
 The "json" files are read using pandas and saved to a postgreSQL database.
 
 
